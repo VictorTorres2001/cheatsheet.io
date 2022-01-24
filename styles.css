@@ -30,13 +30,14 @@
     border: 2px solid green;
     margin: 0 auto;
     table-layout: auto;
-    width: 650px;
+    width: 1000px;
    }
   
   .opacity{
       border: 2px solid green;
-      width: 650px;
+      width: 1000px;
       margin: 0 auto;
+      table-layout: auto;
   }
   
    span.black {
