@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>Colors Cheatsheet</title>
+  </head>
+  <body>
+    <h1>Colors Cheatsheet</h1>
+    <div class=color>
+      <h2>Types of Colors</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Value</td>
+            <td>Type</td>
+            <td>Description</td>
+          </tr>
+       </thead>
+        <tbody>
+          <tr>
+            <td>green</td>
+            <td>Color keywords</td>
+            <td>Simple and easy! You can use the name of the color you are looking for instead of a value, however it has to be a color keywords CSS knows. The amount of color keywords change from version to version of CSS so while this type is easy and simple it can be very limiting.</td>
+          </tr>
+          <tr>
+            <td>#008000</td>
+            <td>Hex Values</td>
+            <td>Hex can look pretty confusing at first but all it is are three values Red, Green, and Blue using hexcidecimal values. Each digit can range from 15(hex) amounts of values, 0-9 and then A-F. The Hex value of #008000 is actually just 00 for Red 80 which translates to 120 for Green and then 00 for Blue. A major benifit of this system is that hex values are nice and compact and if all three parts of the hex value are the same double digits for example <span class=black>black #000000</span> it can be shortened to <span class=black>#000</span>.</td>
+          </tr>
+          <tr>
+            <td>rgb(0,128,0)</td>
+            <td>RGB Values</td>
+            <td>RGB values are defined by three values the first being Red, then Green, and finnaly Blue. These values range from 0-255. Where 0 is no amount of that color and 255 is the max amount of that color. The major benifit with this type is that you can get a very precise color since you have control over the amount of red, green, and blue being used for your color!</td>
+          </tr>
+          <tr>
+            <td>hsl(120,100%,25%)</td>
+            <td>HSL Values</td>
+            <td>HSL Values are defined by the Hue, Saturation, and Light. It can be a little confusing at first but once masted can give you a lot of control over how a color can look. The first aspect of the HSL value the Hue is a value that ranges from 0-360. Each value repersents a degree on a color wheel 0 being red, 120 being green, 240 being Blue, and 360 being red again. The second aspect is Saturation this percentage value represents how saturated the color is ranging from 0%-100% the lower the color become the more grey the color. Finally, the last aspect is Light, this is a percentage value ranging from 0%-100% and this affects how light the color is with 0% being the darkest and 100% being the lightest. Using this as your color value gives you an aspect of customization that other values don't have.</td>
+          </tr>
+          <tr>
+            <td>hwb(120,0%,50%)</td>
+            <td>HWB Value</td>
+            <td>HWB values are similar to HSL in the fact that both use the hue values. The main diffrence is insted of saturation and light you have White and Black. white and black both are percentage values that range from 0%-100% with the higher there percentage the more white or black the color is respectivly. Note that both white and black color values should not equal more than 100%. When both do equal 100% your color will appear grey a mix of only black and white. THWB is generally easier to understand and change than HSL while providing similar benifits.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+    <div class=opacity>
+      <h2>Color Opacity</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Value</td>
+            <td>Type</td>
+            <td>Description</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#00800088</td>
+            <td>Hex Value with Alpha</td>
+            <td>To change your opacity with hex values is simple! All that needs to be added is two digits that range from 00-FF. These digits change an value called alpha with 00 being completly clear and FF being completly opaque.</td>
+          </tr>
+          <tr>
+            <td>rgba(0,128,0,0.5)</td>
+            <td>RGBA Value</td>
+            <td>RGBA is similar to RGB but with an aditional A (alpha) value that changes the opacity of the color that ranger 0-1. 0 makes the color complety clear and the 1 makes the color completely opaque.</td>
+          </tr>
+          <tr>
+            <td>hsla(120,100%,25%,0.5)</td>
+            <td>HSLA Value</td>
+            <td>HSLA is just like HSL values but with the aditional A(alpha) value that changes the opacity of the color that ranger 0-1. 0 makes the color complety clear and the 1 makes the color completely opaque.</td>
+          </tr>
+          <tr>
+            <td>hwba(120,0%,50%, 0.5)</td>
+            <td>HWBA Value</td>
+            <td>HWBA is just HWB values but with the aditional A(alpha) value that changes the opacity of the color that ranger 0-1. 0 makes the color complety clear and the 1 makes the color completely opaque.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
